@@ -1,788 +1,788 @@
 ---
 -
-    name: JavaScript 3/5
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: >
+  name: JavaScript 3/5
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: >
   JavaScript 3/5 is the "old" version of JavaScript as currently supported by browsers (mostly JavaScript 5).
-  See https://en.wikipedia.org/wiki/JavaScript. Good to be used directly on small projects where build tools 
+  See https://en.wikipedia.org/wiki/JavaScript. Good to be used directly on small projects where build tools 
   and transpiling are overhead. We prefer the use of ES2015 and beyond and use Babel for transpiling so more
   modern an powerful JavaScript language features can be used.
 -
-    name: ES2015+
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: >
-  The new version of JavaScript with way more powerful language constructs. See http://www.ecma-international.org/ecma-262/6.0/ for
-  the language specification. Not all browser support the new ES2015 features, so use Babel - https://babeljs.io/ - for transpiling.
-  This means that the project requires a build system. https://babeljs.io/learn-es2015/ gives nice overview of the new ES2015 features.
--
-    name: jQuery
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: Still a viable solution for small projects, and for example in combination with Bootstrap 3.x.
--
-    name: SASS
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Bootstrap 3.x
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 'Still the #1 library for web UI''s, especially for administrative screens.'
--
-    name: Typescript 2
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Jasmine
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: RX-JS
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: SVG
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Lodash
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: ReactJS
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Angular 4
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Webpack
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: C# in Razor
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Redux
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Liquid
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Karma
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: ImmutableJS
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: HTML5/CSS
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: VueJS
-    ring: trial
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Axios
-    ring: trial
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: D3.js
-    ring: trial
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: AMP
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description:  Accelerated Mobile Pages
--
-    name: Web Components
-    ring: trial
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Hammer.js
-    ring: trial
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: A-Frame
-    ring: assess
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: MobX
-    ring: assess
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Moustache
-    ring: assess
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: ReactVR
-    ring: assess
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: ReactNative
-    ring: assess
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Preact
-    ring: assess
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Houdini
-    ring: assess
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: jQuery
-    ring: hold
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: LESS
-    ring: hold
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: JavaScript 3/5
-    ring: hold
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Knockout
-    ring: hold
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Polymer
-    ring: hold
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: RequireJS
-    ring: hold
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: AngularJS 1.x
-    ring: hold
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Backbone
-    ring: hold
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Lodash
-    ring: hold
-    quadrant: languages & frameworks
-    isNew: FALSE
-    description: 
--
-    name: Dotnet Core
-    ring: adopt
-    quadrant: platforms
-    isNew: FALSE
-    description: 
--
-    name: Azure
-    ring: adopt
-    quadrant: platforms
-    isNew: FALSE
-    description: 
--
-    name: Solr
-    ring: adopt
-    quadrant: platforms
-    isNew: FALSE
-    description: 
--
-    name: Sitecore
-    ring: adopt
-    quadrant: platforms
-    isNew: FALSE
-    description: 
--
-    name: Docker
-    ring: trial
-    quadrant: platforms
-    isNew: FALSE
-    description: 
--
-    name: Elastic Search
-    ring: adopt
-    quadrant: platforms
-    isNew: FALSE
-    description: 
--
-    name: MongoDB
-    ring: trial
-    quadrant: platforms
-    isNew: FALSE
-    description: 
--
-    name: Tree Shaking
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Continuous Integration
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: BEM, OOCSS
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: Structured CSS
--
-    name: Full Stack devs
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 'Don''t be scared of install complete platform and edit Razor views'
--
-    name: Flexbox
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: OAuth2
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Live Server
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Content as a service
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: HTTP/2
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: PWA
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: Progressibe Web Apps
--
-    name: SEO
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: GitFlow
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: ARIA
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Canvas
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: DevOps
-    ring: adopt
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: ImageOpt
-    ring: assess
-    quadrant: techniques
-    isNew: FALSE
-    description: Image services like Imgr
--
-    name: No backend
-    ring: assess
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Unit tests
-    ring: assess
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Hifidelity Prototypes
-    ring: trial
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: CSS Grids
-    ring: trial
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Bootstrap 4
-    ring: trial
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: CSS Vars
-    ring: trial
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: WebVR
-    ring: trial
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Web Assembly
-    ring: trial
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: UI Testing
-    ring: trial
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Flux
-    ring: hold
-    quadrant: techniques
-    isNew: FALSE
-    description: 
--
-    name: Terminal
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: @Types
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: New Typscript typing system
--
-    name: Gulp
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: NPM
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: GIT
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Webpack
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Jekyll
-    ring: hold
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: PostCSS
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Babel
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Node
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Git visual client
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: Sourcetree / Gitkraken
--
-    name: Lint tools
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: TSLint, SASSLint
--
-    name: Visual Studio Code
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: And team configurations
--
-    name: Yarn
-    ring: assess
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Node @server
-    ring: adopt
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: CSS Nano
-    ring: trial
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Web bluetooth
-    ring: trial
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Typings
-    ring: hold
-    quadrant: tools
-    isNew: FALSE
-    description: Old Typescript typing system
--
-    name: SourceJS
-    ring: hold
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: TFVC
-    ring: hold
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Grunt
-    ring: hold
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Bower
-    ring: hold
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Mixture
-    ring: hold
-    quadrant: tools
-    isNew: FALSE
-    description: 
--
-    name: Netlify
-    ring: trial
-    quadrant: platforms
-    isNew: TRUE
-    description: 
--
-    name: Atomic design
-    ring: adopt
-    quadrant: techniques
-    isNew: TRUE
-    description: 
--
-    name: ASP.NET
-    ring: adopt
-    quadrant: platforms
-    isNew: FALSE
-    description: 
--
-    name: Zeplin
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Sketch
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Invision
-    ring: trial
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Marvel app
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Axure
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Gatsby
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Storybook
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Nextjs
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Unicorn (sitecore)
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: TDS (sitecore)
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Glass (sitecore)
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: TRUE
-    description: 
--
-    name: SXA
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: TRUE
-    description: 
--
-    name: Google Analytics
-    ring: adopt
-    quadrant: platforms
-    isNew: TRUE
-    description: 
--
-    name: Google Tag Manager
-    ring: adopt
-    quadrant: platforms
-    isNew: TRUE
-    description: 
--
-    name: DoubleClick
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: BeGenius
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Hotjar
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Google Optimize
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Optimizly
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Tealium
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: OpenGraph
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: TRUE
-    description: 
--
-    name: GraphQL
-    ring: assess
-    quadrant: languages & frameworks
-    isNew: TRUE
-    description: 
--
-    name: OData
-    ring: adopt
-    quadrant: languages & frameworks
-    isNew: TRUE
-    description: 
--
-    name: Firebase
-    ring: assess
-    quadrant: platforms
-    isNew: TRUE
-    description: 
--
-    name: Heroku
-    ring: adopt
-    quadrant: platforms
-    isNew: TRUE
-    description: 
--
-    name: EXM (sitecore)
-    ring: assess
-    quadrant: languages & frameworks
-    isNew: TRUE
-    description: 
--
-    name: Jest
-    ring: trial
-    quadrant: languages & frameworks
-    isNew: TRUE
-    description: 
--
-    name: Selenium
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: Application Insights
-    ring: adopt
-    quadrant: tools
-    isNew: TRUE
-    description: 
--
-    name: CDN
-    ring: adopt
-    quadrant: platforms
-    isNew: TRUE
-    description: 
+  name: ES2015+
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: >
+  The new version of JavaScript with way more powerful language constructs. See http://www.ecma-international.org/ecma-262/6.0/ for
+  the language specification. Not all browser support the new ES2015 features, so use Babel - https://babeljs.io/ - for transpiling.
+  This means that the project requires a build system. https://babeljs.io/learn-es2015/ gives nice overview of the new ES2015 features.
+-
+  name: jQuery
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: Still a viable solution for small projects, and for example in combination with Bootstrap 3.x.
+-
+  name: SASS
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Bootstrap 3.x
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 'Still the #1 library for web UI''s, especially for administrative screens.'
+-
+  name: Typescript 2
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Jasmine
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: RX-JS
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: SVG
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Lodash
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: ReactJS
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Angular 4
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Webpack
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: C# in Razor
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Redux
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Liquid
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Karma
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: ImmutableJS
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: HTML5/CSS
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: VueJS
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Axios
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: D3.js
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: AMP
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description:  Accelerated Mobile Pages
+-
+  name: Web Components
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Hammer.js
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: A-Frame
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: MobX
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Moustache
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: ReactVR
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: ReactNative
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Preact
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Houdini
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: jQuery
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: LESS
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: JavaScript 3/5
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Knockout
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Polymer
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: RequireJS
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: AngularJS 1.x
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Backbone
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Lodash
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 
+-
+  name: Dotnet Core
+  ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description: 
+-
+  name: Azure
+  ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description: 
+-
+  name: Solr
+  ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description: 
+-
+  name: Sitecore
+  ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description: 
+-
+  name: Docker
+  ring: trial
+  quadrant: platforms
+  isNew: FALSE
+  description: 
+-
+  name: Elastic Search
+  ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description: 
+-
+  name: MongoDB
+  ring: trial
+  quadrant: platforms
+  isNew: FALSE
+  description: 
+-
+  name: Tree Shaking
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Continuous Integration
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: BEM, OOCSS
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: Structured CSS
+-
+  name: Full Stack devs
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 'Don''t be scared of install complete platform and edit Razor views'
+-
+  name: Flexbox
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: OAuth2
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Live Server
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Content as a service
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: HTTP/2
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: PWA
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: Progressibe Web Apps
+-
+  name: SEO
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: GitFlow
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: ARIA
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Canvas
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: DevOps
+  ring: adopt
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: ImageOpt
+  ring: assess
+  quadrant: techniques
+  isNew: FALSE
+  description: Image services like Imgr
+-
+  name: No backend
+  ring: assess
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Unit tests
+  ring: assess
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Hifidelity Prototypes
+  ring: trial
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: CSS Grids
+  ring: trial
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Bootstrap 4
+  ring: trial
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: CSS Vars
+  ring: trial
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: WebVR
+  ring: trial
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Web Assembly
+  ring: trial
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: UI Testing
+  ring: trial
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Flux
+  ring: hold
+  quadrant: techniques
+  isNew: FALSE
+  description: 
+-
+  name: Terminal
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: @Types
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: New Typscript typing system
+-
+  name: Gulp
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: NPM
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: GIT
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Webpack
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Jekyll
+  ring: hold
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: PostCSS
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Babel
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Node
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Git visual client
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: Sourcetree / Gitkraken
+-
+  name: Lint tools
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: TSLint, SASSLint
+-
+  name: Visual Studio Code
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: And team configurations
+-
+  name: Yarn
+  ring: assess
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Node @server
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: CSS Nano
+  ring: trial
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Web bluetooth
+  ring: trial
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Typings
+  ring: hold
+  quadrant: tools
+  isNew: FALSE
+  description: Old Typescript typing system
+-
+  name: SourceJS
+  ring: hold
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: TFVC
+  ring: hold
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Grunt
+  ring: hold
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Bower
+  ring: hold
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Mixture
+  ring: hold
+  quadrant: tools
+  isNew: FALSE
+  description: 
+-
+  name: Netlify
+  ring: trial
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Atomic design
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: 
+-
+  name: ASP.NET
+  ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description: 
+-
+  name: Zeplin
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Sketch
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Invision
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Marvel app
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Axure
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Gatsby
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Storybook
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Nextjs
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Unicorn (sitecore)
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: TDS (sitecore)
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Glass (sitecore)
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 
+-
+  name: SXA
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 
+-
+  name: Google Analytics
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Google Tag Manager
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: DoubleClick
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: BeGenius
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Hotjar
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Google Optimize
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Optimizly
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Tealium
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: OpenGraph
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 
+-
+  name: GraphQL
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 
+-
+  name: OData
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 
+-
+  name: Firebase
+  ring: assess
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Heroku
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: EXM (sitecore)
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 
+-
+  name: Jest
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 
+-
+  name: Selenium
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Application Insights
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: CDN
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
