@@ -4,6 +4,7 @@ This repository contains the Macaw Interactive technology radars.
 
 Frontend Technology Radar:
 - [View Frontend Technology Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githack.com%2Fmacaw-interactive%2Fradar%2Fmaster%2Ffrontend.csv)
+- [Edit YAML file](https://github.com/macaw-interactive/radar/edit/master/frontend.yaml)
 - [Convert YAML to CSV](https://jsonformatter.org/yaml-to-csv/?url=https://raw.githack.com/macaw-interactive/radar/master/frontend.yaml)
 - [Edit CSV file for pasting](https://github.com/macaw-interactive/radar/edit/master/frontend.csv)
 
