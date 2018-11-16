@@ -1,0 +1,27 @@
+{
+  "name": "radar",
+  "version": "1.0.0",
+  "description": "Macaw Interactive technology radars",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "node yaml2csv.js frontend.yaml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macaw-interactive/radar.git"
+  },
+  "keywords": [
+    "Technology",
+    "Radar"
+  ],
+  "author": "Macaw Interactive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macaw-interactive/radar/issues"
+  },
+  "homepage": "https://github.com/macaw-interactive/radar#readme",
+  "dependencies": {
+    "js-yaml": "^3.12.0"
+  }
+}
