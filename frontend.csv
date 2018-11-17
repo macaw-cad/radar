@@ -1,131 +1,90 @@
 name,ring,quadrant,isNew,description
-JavaScript 3/5,adopt,languages & frameworks,false,"JavaScript 3/5 is the ""old"" version of JavaScript as currently supported by browsers (mostly JavaScript 5). See https://en.wikipedia.org/wiki/JavaScript. Good to be used directly on small projects where build tools and transpiling are overhead. We prefer the use of ES2015 and beyond and use Babel for transpiling so more modern an powerful JavaScript language features can be used."
-ES2015+,adopt,languages & frameworks,false,"The new version of JavaScript with way more powerful language constructs. See http://www.ecma-international.org/ecma-262/6.0/ for the language specification. Not all browser support the new ES2015 features, so use Babel - https://babeljs.io/ - for transpiling. This means that the project requires a build system. https://babeljs.io/learn-es2015/ gives  nice overview of the new ES2015 features"
-jQuery,adopt,languages & frameworks,false,"Still a viable solution for small projects, and for example in combination with Bootstrap 3.x."
-SASS,adopt,languages & frameworks,false,
-Bootstrap 3.x,adopt,languages & frameworks,false,"Still the #1 library for web UI's, especially for administrative screens."
-Typescript 2,adopt,languages & frameworks,false,
-Jasmine,adopt,languages & frameworks,false,
-RX-JS,adopt,languages & frameworks,false,
-SVG,adopt,languages & frameworks,false,
-Lodash,adopt,languages & frameworks,false,
-ReactJS,adopt,languages & frameworks,false,
-Angular 4,adopt,languages & frameworks,false,
-Webpack,adopt,languages & frameworks,false,
-C# in Razor,adopt,languages & frameworks,false,
-Redux,adopt,languages & frameworks,false,
-Liquid,adopt,languages & frameworks,false,
-Karma,adopt,languages & frameworks,false,
-ImmutableJS,adopt,languages & frameworks,false,
-HTML5/CSS,adopt,languages & frameworks,false,
-VueJS,trial,languages & frameworks,false,
-Axios,trial,languages & frameworks,false,
-D3.js,trial,languages & frameworks,false,
-AMP,adopt,languages & frameworks,false,Accelerated Mobile Pages
-Web Components,trial,languages & frameworks,false,
-Hammer.js,trial,languages & frameworks,false,
-A-Frame,assess,languages & frameworks,false,
-MobX,assess,languages & frameworks,false,
-Moustache,assess,languages & frameworks,false,
-ReactVR,assess,languages & frameworks,false,
-ReactNative,assess,languages & frameworks,false,
-Preact,assess,languages & frameworks,false,
-Houdini,assess,languages & frameworks,false,
-jQuery,hold,languages & frameworks,false,
-LESS,hold,languages & frameworks,false,
-JavaScript 3/5,hold,languages & frameworks,false,
-Knockout,hold,languages & frameworks,false,
-Polymer,hold,languages & frameworks,false,
-RequireJS,hold,languages & frameworks,false,
-AngularJS 1.x,hold,languages & frameworks,false,
-Backbone,hold,languages & frameworks,false,
-Lodash,hold,languages & frameworks,false,
+JavaScript 3/5,adopt,languages & frameworks,false,"JavaScript 3/5 is the ""old"" version of JavaScript as currently supported by browsers (mostly JavaScript 5). See https://en.wikipedia.org/wiki/JavaScript. Good to be used directly on small projects where build tools  and transpiling are overhead. We prefer the use of ES2015 and beyond and use Babel for transpiling so more modern an powerful JavaScript language features can be used. SXA
+"
+ES2015+,hold,languages & frameworks,false,"The new version of JavaScript with way more powerful language constructs. See http://www.ecma-international.org/ecma-262/6.0/ for the language specification. Not all browser support the new ES2015 features, so use Babel - https://babeljs.io/ - for transpiling. This means that the project requires a build system. https://babeljs.io/learn-es2015/ gives nice overview of the new ES2015 features. TypeScript (as a better ES2015+ - needs transpiling anyway)
+"
+jQuery,adopt,languages & frameworks,false,"Still a viable solution for small projects, and for example in combination with Bootstrap and SiteCore SXA."
+SASS,adopt,languages & frameworks,false,"Is used for all transpiled ""CSS"" styling, if not css in js used."
+Bootstrap,adopt,languages & frameworks,false,"Still the #1 library for web UI's, especially for administrative screens."
+Typescript,adopt,languages & frameworks,false,"Use latest version where possible, use strict mode where possible (required by Create React App)"
+Jest,adopt,languages & frameworks,false,Testing library to describe your test.
+RX-JS,trial,languages & frameworks,false,Reactive programming... describe
+SVG,adopt,languages & frameworks,false,Scalable Vector Graphics - the solution for resolution independent graphics.
+ReactJS,adopt,languages & frameworks,false,Our current choice as view library.
+Angular,adopt,languages & frameworks,false,Full-fledged framework for line-of-business SPA applications.
+Webpack,adopt,languages & frameworks,false,"The coordinator behind transpilation, minification and obfuscation. Client-side bundles CRA2 where possible,  server-side bundles custom webpack configuration.
+"
+Redux,adopt,languages & frameworks,false,State management for ReactJS.
+HTML5/CSS,adopt,languages & frameworks,false,The core of everything.
+VueJS,hold,languages & frameworks,false,"Used in some of the Macaw projects. Not our default starting point, but a viable alternative."
+D3.js,trial,languages & frameworks,false,The library for advanced data visualization and animation.
+AMP,adopt,languages & frameworks,false,Accelerated Mobile Pages.
+Web Components,trial,languages & frameworks,false,"We love the idea, nut the technology did not prove itself enough yet. Still different implementations of the standard. TODO.
+"
+Houdini,assess,languages & frameworks,false,Research - CSS extensions?!
+jQuery,hold,languages & frameworks,false,"on't start another project with jQuery, in some cases needed."
+LESS,hold,languages & frameworks,false,Favor SASS over LESS.
+JavaScript 3/5,hold,languages & frameworks,false,"Only if very simple, no transpiling."
+AngularJS,hold,languages & frameworks,false,Das war einmal...
 Dotnet Core,adopt,platforms,false,
 Azure,adopt,platforms,false,
-Solr,adopt,platforms,false,
-Sitecore,adopt,platforms,false,
-Docker,trial,platforms,false,
-Elastic Search,adopt,platforms,false,
-MongoDB,trial,platforms,false,
-Tree Shaking,adopt,techniques,false,
-Continuous Integration,adopt,techniques,false,
-"BEM, OOCSS",adopt,techniques,false,Structured CSS
+Solr,hold,platforms,false,"Part of the Sitecore box, use it for internal purposes, for custom search adopt ElasticSearch, AzureSearch"
+Sitecore SXA,adopt,platforms,false,Prefered platform for out of the box Sitecore implementations
+Sitecore JSS,trial,platforms,false,To use Sitecore as a headless CMS
+Docker / containers,trial,platforms,false,"For unit of deployment, linux, Azure Web Apps / kubernetes"
+Elastic Search,adopt,platforms,false,"Dutchcompany, local support!"
+Tree Shaking,trial,techniques,false,Minimal bundle size - webpack / rollup?
+Production First - CI/CD,adopt,techniques,false,Azure DevOps - pipelines
 Full Stack devs,adopt,techniques,false,Don't be scared of install complete platform and edit Razor views
-Flexbox,adopt,techniques,false,
 OAuth2,adopt,techniques,false,
-Live Server,adopt,techniques,false,
-Content as a service,adopt,techniques,false,
-HTTP/2,adopt,techniques,false,
-PWA,adopt,techniques,false,Progressibe Web Apps
-SEO,adopt,techniques,false,
-GitFlow,adopt,techniques,false,
-ARIA,adopt,techniques,false,
-Canvas,adopt,techniques,false,
-DevOps,adopt,techniques,false,
+Content as a service,adopt,techniques,false,"JSS, Netlify, BLS..."
+HTTP/2,adopt,techniques,false,Explain what does it mean...
+PWA,adopt,techniques,false,Progressive Web Apps
+SEO,adopt,techniques,false,"Technical SEO - Schema.org, JSON-LD, ..."
+ARIA,adopt,techniques,false,"Accessibility, should be done!!"
 ImageOpt,assess,techniques,false,Image services like Imgr
-No backend,assess,techniques,false,
-Unit tests,assess,techniques,false,
+Serverless,assess,techniques,false,Serverless computing
+Unit tests,assess,techniques,false,Jest
+UI Testing,trial,techniques,false,Maquality framework
 Hifidelity Prototypes,trial,techniques,false,
-CSS Grids,trial,techniques,false,
-Bootstrap 4,trial,techniques,false,
-CSS Vars,trial,techniques,false,
-WebVR,trial,techniques,false,
 Web Assembly,trial,techniques,false,
-UI Testing,trial,techniques,false,
-Flux,hold,techniques,false,
-Terminal,adopt,tools,false,
-@Types,adopt,tools,false,New Typscript typing system
-Gulp,adopt,tools,false,
-NPM,adopt,tools,false,
+Terminal,adopt,tools,false,"Commandline tooling, CLI's"
+Types,adopt,tools,false,New Typscript typing system
+Gulp,hold,tools,false,
+npm,adopt,tools,false,
 GIT,adopt,tools,false,
 Webpack,adopt,tools,false,
 Jekyll,hold,tools,false,
 PostCSS,adopt,tools,false,
-Babel,adopt,tools,false,
+Babel 7,adopt,tools,false,Where is it relevant
 Node,adopt,tools,false,
-Git visual client,adopt,tools,false,Sourcetree / Gitkraken
+Git,adopt,tools,false,
 Lint tools,adopt,tools,false,"TSLint, SASSLint"
-Visual Studio Code,adopt,tools,false,And team configurations
-Yarn,assess,tools,false,
-Node @server,adopt,tools,false,
-CSS Nano,trial,tools,false,
-Web bluetooth,trial,tools,false,
+Visual Studio Code,adopt,tools,false,And team configurations (editor config)
+Yarn,hold,tools,false,npm/yarn move in same pace - make a choice --> npm
+Node @server,adopt,tools,false,Node apps in production
 Typings,hold,tools,false,Old Typescript typing system
-SourceJS,hold,tools,false,
-TFVC,hold,tools,false,
+TFVC,hold,tools,false,TFS source control
 Grunt,hold,tools,false,
 Bower,hold,tools,false,
 Mixture,hold,tools,false,
-Netlify,trial,platforms,true,
 Atomic design,adopt,techniques,true,
 ASP.NET,adopt,platforms,false,
 Zeplin,adopt,tools,true,
 Sketch,adopt,tools,true,
-Invision,trial,tools,true,
+Invision,adopt,tools,true,
 Marvel app,adopt,tools,true,
 Axure,adopt,tools,true,
 Gatsby,adopt,tools,true,
 Storybook,adopt,tools,true,
 Nextjs,adopt,tools,true,
-Unicorn (sitecore),adopt,tools,true,
-TDS (sitecore),adopt,tools,true,
-Glass (sitecore),adopt,languages & frameworks,true,
 SXA,adopt,languages & frameworks,true,
 Google Analytics,adopt,platforms,true,
 Google Tag Manager,adopt,platforms,true,
-DoubleClick,adopt,tools,true,
-BeGenius,adopt,tools,true,
 Hotjar,adopt,tools,true,
 Google Optimize,adopt,tools,true,
-Optimizly,adopt,tools,true,
-Tealium,adopt,tools,true,
-OpenGraph,adopt,languages & frameworks,true,
-GraphQL,assess,languages & frameworks,true,
+OpenGraph,adopt,languages & frameworks,true,SEO metadata
+GraphQL,trial,languages & frameworks,true,
 OData,adopt,languages & frameworks,true,
-Firebase,assess,platforms,true,
-Heroku,adopt,platforms,true,
-EXM (sitecore),assess,languages & frameworks,true,
-Jest,trial,languages & frameworks,true,
-Selenium,adopt,tools,true,
 Application Insights,adopt,tools,true,
 CDN,adopt,platforms,true,

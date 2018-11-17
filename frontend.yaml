@@ -288,7 +288,7 @@
   isNew: FALSE
   description: Commandline tooling, CLI's
 -
-  name: Types
+  name: Types 
   ring: adopt
   quadrant: tools
   isNew: FALSE
