@@ -8,7 +8,7 @@ SASS,adopt,languages & frameworks,false,"Is used for all transpiled ""CSS"" styl
 Bootstrap,adopt,languages & frameworks,false,"Still the #1 library for web UI's, especially for administrative screens."
 Typescript,adopt,languages & frameworks,false,"Use latest version where possible, use strict mode where possible (required by Create React App)"
 Jest,adopt,languages & frameworks,false,Testing library to describe your test.
-RX-JS,trial,languages & frameworks,false,Reactive programming... describe
+RX-JS,trial,languages & frameworks,false,Reactive programming with JavaScript
 SVG,adopt,languages & frameworks,false,Scalable Vector Graphics - the solution for resolution independent graphics.
 ReactJS,adopt,languages & frameworks,false,Our current choice as view library.
 Angular,adopt,languages & frameworks,false,Full-fledged framework for line-of-business SPA applications.

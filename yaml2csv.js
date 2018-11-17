@@ -5,8 +5,7 @@ var argv = require('minimist')(process.argv.slice(2));
 if (argv['h'] !== undefined || argv['i'] === undefined || argv['o'] === undefined) {
     console.log('Usage: node yaml2csv.js -i input.yaml -o output.csv');
 } else {
-    console.log(`Input YAML file: ${argv['i']}`);
-    console.log(`Output CSV file: ${argv['o']}`);
+    console.log(`Converting input YAML file ${argv['i']} to output CSV file ${argv['o']}`);
     try {
         const json = yaml.safeLoad(fs.readFileSync(argv['i'], 'utf8'));
         jsonexport(json, function(err, csv) {

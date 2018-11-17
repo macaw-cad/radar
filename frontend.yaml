@@ -54,7 +54,7 @@
   ring: trial
   quadrant: languages & frameworks
   isNew: FALSE
-  description: Reactive programming... describe
+  description: Reactive programming with JavaScript
 -
   name: SVG
   ring: adopt

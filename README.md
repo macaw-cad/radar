@@ -8,6 +8,16 @@ Frontend Technology Radar:
 - [Convert YAML to CSV](https://jsonformatter.org/yaml-to-csv/?url=https://raw.githack.com/macaw-interactive/radar/master/frontend.yaml) - copy CSV output after conversion
 - [Edit CSV file for pasting](https://github.com/macaw-interactive/radar/edit/master/frontend.csv)
 
+## Edit radars on local machine
+
+Besides the above approach with editing the content of the radar directly in Github, convert it with an online 
+tool and write it back to github, there is also a more advanced approach:
+
+1. Clone this repo
+2. Execute ```npm run dev:frontend ``` to watch the YAML file for changes and preview in Chrome (needs refresh)
+3. Execute ```npm run convert``` to convert all radars to their CSV formats
+4. Commit and push to mke changes visible for the rest of thwe world
+
 ## Background information
 
 For visualizing the technology radars we use the [ThoughtWorks radar visualization tool](https://www.thoughtworks.com/radar/how-to-byor).
