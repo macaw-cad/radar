@@ -12,7 +12,7 @@ if (argv['h'] !== undefined || argv['port'] === undefined) {
         etag: false,
         extensions: ['csv'],
         index: false,
-        maxAge: '1d',
+        maxAge: '-1',
         redirect: false,
         setHeaders: function (res, path, stat) {
             res.set('content-type', 'text/csv; charset=utf-8');
