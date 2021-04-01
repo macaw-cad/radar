@@ -1,17 +1,17 @@
 ---
 -
-  name: JavaScript 3/5
-  ring: adopt
+  name: JavaScript 5
+  ring: hold
   quadrant: languages & frameworks
   isNew: FALSE
   description: >
-    JavaScript 3/5 is the "old" version of JavaScript as currently supported by browsers (mostly JavaScript 5).
+    JavaScript 5 is the "old" version of JavaScript as currently supported by browsers (mostly JavaScript 5).
     See https://en.wikipedia.org/wiki/JavaScript. Good to be used directly on small projects where build tools 
     and transpiling are overhead. We prefer the use of ES2015 and beyond and use Babel for transpiling so more
     modern an powerful JavaScript language features can be used. SXA
 -
-  name: ES2015+
-  ring: hold
+  name: ESNext
+  ring: adopt
   quadrant: languages & frameworks
   isNew: FALSE
   description: >
@@ -19,12 +19,6 @@
     the language specification. Not all browser support the new ES2015 features, so use Babel - https://babeljs.io/ - for transpiling.
     This means that the project requires a build system. https://babeljs.io/learn-es2015/ gives nice overview of the new ES2015 features.
     TypeScript (as a better ES2015+ - needs transpiling anyway)
--
-  name: jQuery
-  ring: adopt
-  quadrant: languages & frameworks
-  isNew: FALSE
-  description: Still a viable solution for small projects, and for example in combination with Bootstrap and SiteCore SXA.
 -
   name: SASS
   ring: adopt
@@ -51,7 +45,7 @@
   description: Testing library to describe your test.
 -
   name: RX-JS
-  ring: trial
+  ring: assess
   quadrant: languages & frameworks
   isNew: FALSE
   description: Reactive programming with JavaScript
@@ -69,14 +63,14 @@
   description: Our current choice as view library.
 -
   name: Angular
-  ring: adopt
+  ring: assess
   quadrant: languages & frameworks
   isNew: FALSE
   description: Full-fledged framework for line-of-business SPA applications.
 -
   name: Webpack
   ring: adopt
-  quadrant: languages & frameworks
+  quadrant: tools
   isNew: FALSE
   description: >
     The coordinator behind transpilation, minification and obfuscation. Client-side bundles CRA2 where possible, 
@@ -86,9 +80,9 @@
   ring: adopt
   quadrant: languages & frameworks
   isNew: FALSE
-  description: State management for ReactJS.
+  description: State management for ReactJS, use redux-toolkit. Not for server state (see eg. react-query).
 -
-  name: HTML5/CSS
+  name: HTML(5)/CSS(3)
   ring: adopt
   quadrant: languages & frameworks
   isNew: FALSE
@@ -101,36 +95,28 @@
   description: Used in some of the Macaw projects. Not our default starting point, but a viable alternative.
 -
   name: D3.js
-  ring: trial
+  ring: assess
   quadrant: languages & frameworks
   isNew: FALSE
   description: The library for advanced data visualization and animation.
 -
   name: AMP
-  ring: adopt
+  ring: assess
   quadrant: languages & frameworks
   isNew: FALSE
   description:  Accelerated Mobile Pages.
 -
   name: Web Components
-  ring: trial
+  ring: adopt
   quadrant: languages & frameworks
   isNew: FALSE
-  description: >
-    We love the idea, nut the technology did not prove itself enough yet. Still different implementations of the standard.
-    TODO.
--
-  name: Houdini
-  ring: assess
-  quadrant: languages & frameworks
-  isNew: FALSE
-  description: Research - CSS extensions?!
+  description: Already using it in projects, see StencilJS as framework. Great alternative way of working with components in SXA
 -
   name: jQuery
   ring: hold
   quadrant: languages & frameworks
   isNew: FALSE
-  description: on't start another project with jQuery, in some cases needed.
+  description: don't start another project with jQuery, except when innevitable on for example commerce projects or projects with out-of-the-box components.
 -
   name: LESS
   ring: hold
@@ -138,19 +124,7 @@
   isNew: FALSE
   description: Favor SASS over LESS.
 -
-  name: JavaScript 3/5
-  ring: hold
-  quadrant: languages & frameworks
-  isNew: FALSE
-  description: Only if very simple, no transpiling. 
--
-  name: AngularJS
-  ring: hold
-  quadrant: languages & frameworks
-  isNew: FALSE
-  description: Das war einmal...
--
-  name: Dotnet Core
+  name: .NET Core/5/6
   ring: adopt
   quadrant: platforms
   isNew: FALSE
@@ -163,10 +137,10 @@
   description: 
 -
   name: Solr
-  ring: hold
+  ring: adopt
   quadrant: platforms
   isNew: FALSE
-  description: Part of the Sitecore box, use it for internal purposes, for custom search adopt ElasticSearch, AzureSearch
+  description: Part of the Sitecore box, for custom search adopt ElasticSearch
 -
   name: Sitecore SXA
   ring: adopt
@@ -178,22 +152,22 @@
   ring: trial
   quadrant: platforms
   isNew: FALSE
-  description: To use Sitecore as a headless CMS
+  description: To use Sitecore as a headless platform. Use in combination with NextJS
 -
   name: Docker / containers
-  ring: trial
+  ring: adopt
   quadrant: platforms
   isNew: FALSE
   description: For unit of deployment, linux, Azure Web Apps / kubernetes
 -
-  name: Elastic Search
+  name: ElasticSearch
   ring: adopt
   quadrant: platforms
   isNew: FALSE
-  description: Dutchcompany, local support!
+  description: Dutch company, local support!
 -
   name: Tree Shaking
-  ring: trial
+  ring: adopt
   quadrant: techniques
   isNew: FALSE
   description: Minimal bundle size - webpack / rollup?
@@ -214,19 +188,19 @@
   ring: adopt
   quadrant: techniques
   isNew: FALSE
-  description: 
+  description: Mostly used under the hood
 -
   name: Content as a service
   ring: adopt
   quadrant: techniques
   isNew: FALSE
-  description: JSS, Netlify, BLS...
+  description: JSS, netlify-cms, BLS...
 -
   name: HTTP/2
   ring: adopt
   quadrant: techniques
   isNew: FALSE
-  description: Explain what does it mean...
+  description: Loading multiple small bundles at high speed
 -
   name: PWA
   ring: adopt
@@ -238,49 +212,43 @@
   ring: adopt
   quadrant: techniques
   isNew: FALSE
-  description: Technical SEO - Schema.org, JSON-LD, ...
+  description: Technical SEO - Schema.org, JSON-LD, OpenGraph, ...
 -
   name: ARIA
-  ring: adopt
+  ring: trial
   quadrant: techniques
   isNew: FALSE
   description: Accessibility, should be done!!
 -
-  name: ImageOpt
-  ring: assess
+  name: Image optimization as a service
+  ring: adopt
   quadrant: techniques
   isNew: FALSE
-  description: Image services like Imgr
+  description: Use image services like Kraken, ContentHub
 -
   name: Serverless
-  ring: assess
+  ring: adopt
   quadrant: techniques
   isNew: FALSE
-  description: Serverless computing
+  description: 'Serverless computing: Azure Functions, Netlify Functions'
 -
   name: Unit tests
-  ring: assess
+  ring: adopt
   quadrant: techniques
   isNew: FALSE
-  description: Jest
+  description: Jest, testing-library.com 
 -
   name: UI Testing
   ring: trial
   quadrant: techniques
   isNew: FALSE
-  description: Maquality framework
--
-  name: Hifidelity Prototypes
-  ring: trial
-  quadrant: techniques
-  isNew: FALSE
-  description: 
+  description: Cypress
 -
   name: Web Assembly
-  ring: trial
+  ring: assess
   quadrant: techniques
   isNew: FALSE
-  description: 
+  description: Blazer for example
 -
   name: Terminal
   ring: adopt
@@ -288,14 +256,8 @@
   isNew: FALSE
   description: Commandline tooling, CLI's
 -
-  name: Types 
-  ring: adopt
-  quadrant: tools
-  isNew: FALSE
-  description: New Typscript typing system
--
   name: Gulp
-  ring: hold
+  ring: adopt
   quadrant: tools
   isNew: FALSE
   description: 
@@ -306,20 +268,8 @@
   isNew: FALSE
   description: 
 -
-  name: GIT
+  name: Git
   ring: adopt
-  quadrant: tools
-  isNew: FALSE
-  description: 
--
-  name: Webpack
-  ring: adopt
-  quadrant: tools
-  isNew: FALSE
-  description: 
--
-  name: Jekyll
-  ring: hold
   quadrant: tools
   isNew: FALSE
   description: 
@@ -334,25 +284,19 @@
   ring: adopt
   quadrant: tools
   isNew: FALSE
-  description: Where is it relevant
+  description: Can be relevant in build tooling 
 -
-  name: Node
+  name: Node.js
   ring: adopt
-  quadrant: tools
+  quadrant: languages & frameworks
   isNew: FALSE
-  description: 
--
-  name: Git
-  ring: adopt
-  quadrant: tools
-  isNew: FALSE
-  description:
+  description: Used in Azure Functions and local prototypes and tooling
 -
   name: Lint tools
   ring: adopt
   quadrant: tools
   isNew: FALSE
-  description: TSLint, SASSLint
+  description: ESLint, stylelint
 -
   name: Visual Studio Code
   ring: adopt
@@ -365,49 +309,6 @@
   quadrant: tools
   isNew: FALSE
   description: npm/yarn move in same pace - make a choice --> npm
--
-  name: Node @server
-  ring: adopt
-  quadrant: tools
-  isNew: FALSE
-  description: Node apps in production
--
-  name: Typings
-  ring: hold
-  quadrant: tools
-  isNew: FALSE
-  description: Old Typescript typing system
-
--
-  name: TFVC
-  ring: hold
-  quadrant: tools
-  isNew: FALSE
-  description: TFS source control
--
-  name: Grunt
-  ring: hold
-  quadrant: tools
-  isNew: FALSE
-  description: 
--
-  name: Bower
-  ring: hold
-  quadrant: tools
-  isNew: FALSE
-  description: 
--
-  name: Mixture
-  ring: hold
-  quadrant: tools
-  isNew: FALSE
-  description: 
--
-  name: Atomic design
-  ring: adopt
-  quadrant: techniques
-  isNew: TRUE
-  description: 
 -
   name: ASP.NET
   ring: adopt
@@ -463,12 +364,6 @@
   isNew: TRUE
   description: 
 -
-  name: SXA
-  ring: adopt
-  quadrant: languages & frameworks
-  isNew: TRUE
-  description: 
--
   name: Google Analytics
   ring: adopt
   quadrant: platforms
@@ -480,24 +375,6 @@
   quadrant: platforms
   isNew: TRUE
   description: 
--
-  name: Hotjar
-  ring: adopt
-  quadrant: tools
-  isNew: TRUE
-  description: 
--
-  name: Google Optimize
-  ring: adopt
-  quadrant: tools
-  isNew: TRUE
-  description: 
--
-  name: OpenGraph
-  ring: adopt
-  quadrant: languages & frameworks
-  isNew: TRUE
-  description: SEO metadata
 -
   name: GraphQL
   ring: trial
