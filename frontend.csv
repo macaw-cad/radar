@@ -7,6 +7,7 @@ SASS,adopt,languages & frameworks,false,"Is used for all transpiled ""CSS"" styl
 Bootstrap,adopt,languages & frameworks,false,"Still the #1 library for web UI's, especially for administrative screens."
 Typescript,adopt,languages & frameworks,false,"Use latest version where possible, use strict mode where possible (required by Create React App)"
 Jest,adopt,languages & frameworks,false,Testing library to describe your test.
+Mirage JS,adopt,languages & frameworks,false,"API mocking library, no need of backend services, mock data within components."
 RX-JS,assess,languages & frameworks,false,Reactive programming with JavaScript
 SVG,adopt,languages & frameworks,false,Scalable Vector Graphics - the solution for resolution independent graphics.
 ReactJS,adopt,languages & frameworks,false,Our current choice as view library.
@@ -14,6 +15,11 @@ Angular,assess,languages & frameworks,false,Full-fledged framework for line-of-b
 Webpack,adopt,tools,false,"The coordinator behind transpilation, minification and obfuscation. Client-side bundles CRA2 where possible,  server-side bundles custom webpack configuration.
 "
 Redux,adopt,languages & frameworks,false,"State management for ReactJS, use redux-toolkit. Not for server state (see eg. react-query)."
+React-query,adopt,languages & frameworks,true,"server state library, Powerful and performant data synchronization between server and client"
+React-router,adopt,languages & frameworks,true,"Collection of navigational components, Routing"
+React forms,adopt,languages & frameworks,true,"Form builder/handling, big JSON schema's use react-json-schema-form, else use react-hook-form"
+Formik,hold,languages & frameworks,true,"React form builder, prefer react-hook-form or react-json-schema-form over Formik"
+Ag-grid,assess,languages & frameworks,true,JavaScript grid
 HTML(5)/CSS(3),adopt,languages & frameworks,false,The core of everything.
 VueJS,hold,languages & frameworks,false,"Used in some of the Macaw projects. Not our default starting point, but a viable alternative."
 D3.js,assess,languages & frameworks,false,The library for advanced data visualization and animation.
@@ -21,30 +27,47 @@ AMP,assess,languages & frameworks,false,Accelerated Mobile Pages.
 Web Components,adopt,languages & frameworks,false,"Already using it in projects, see StencilJS as framework. Great alternative way of working with components in SXA"
 jQuery,hold,languages & frameworks,false,"don't start another project with jQuery, except when innevitable on for example commerce projects or projects with out-of-the-box components."
 LESS,hold,languages & frameworks,false,Favor SASS over LESS.
+Tailwind,trial,languages & frameworks,true,"Utility-first CSS framework, small library"
+Material UI,assess,languages & frameworks,true,React UI framework with standard set of components
+Ionic framework,assess,languages & frameworks,true,"Mobile app framework where developer can choose between React, Angular and Vue.js implementations"
+XState,trial,languages & frameworks,true,"JavaScript/TypeScript state machine, declarative description of application behavior"
 .NET Core/5/6,adopt,platforms,false,
 Azure,adopt,platforms,false,
 Solr,adopt,platforms,false,"Part of the Sitecore box, for custom search adopt ElasticSearch"
 Sitecore SXA,adopt,platforms,false,Prefered platform for out of the box Sitecore implementations
-Sitecore JSS,trial,platforms,false,To use Sitecore as a headless platform. Use in combination with NextJS
+Sitecore JSS,assess,platforms,false,To use Sitecore as a headless platform. Use in combination with NextJS
+Sitecore Edge,assess,platforms,true,"Headless content delivery, available with Content Hub or XM"
 Docker / containers,adopt,platforms,false,"For unit of deployment, linux, Azure Web Apps / kubernetes"
-ElasticSearch,adopt,platforms,false,"Dutch company, local support!"
+ElasticSearch,adopt,platforms,false,"Dutch company, local support, based on usage look at Azure Search"
 Tree Shaking,adopt,techniques,false,Minimal bundle size - webpack / rollup?
 Production First - CI/CD,adopt,techniques,false,Azure DevOps - pipelines
 Full Stack devs,adopt,techniques,false,Don't be scared of install complete platform and edit Razor views
 OAuth2,adopt,techniques,false,Mostly used under the hood
-Content as a service,adopt,techniques,false,"JSS, netlify-cms, BLS..."
+Content as a service,adopt,techniques,false,"JSS, Netlify-cms, BLS..."
 HTTP/2,adopt,techniques,false,Loading multiple small bundles at high speed
 PWA,adopt,techniques,false,Progressive Web Apps
 SEO,adopt,techniques,false,"Technical SEO - Schema.org, JSON-LD, OpenGraph, ..."
-ARIA,trial,techniques,false,"Accessibility, should be done!!"
+A11Y/ARIA,trial,techniques,false,"Accessibility, Adobe React Aria"
 Image optimization as a service,adopt,techniques,false,"Use image services like Kraken, ContentHub"
 Serverless,adopt,techniques,false,"Serverless computing: Azure Functions, Netlify Functions"
 Unit tests,adopt,techniques,false,"Jest, testing-library.com"
-UI Testing,trial,techniques,false,Cypress
+UI Testing,assess,techniques,false,Cypress
 Web Assembly,assess,techniques,false,Blazer for example
+JAMStack,adopt,techniques,true,"new standard for web architecture, CDN, Microservices"
+Date formatting,adopt,techniques,true,Date-fns or day-js depending on how intensive/widespread date is being used
+Code splitting,adopt,techniques,true,(fe. Dynamic imports)
+Internationalization,adopt,techniques,true,FormatJS (react-intl)
+Azure static web apps,assess,techniques,true,Automatically build and deploy full stack web apps to Azure; Azure Functions
+Websockets,assess,techniques,true,two way interactive communication between user's browser and server (fe. SocketIO)
+Service workers,adopt,techniques,true,"event-driven scripts that run independently of web pages (fe. push notifications), programmable network proxy."
+Web workers,trial,techniques,true,"run scripts in background threads independently of user-interface scripts, they can perform I/O using XMLHttpRequest."
 Terminal,adopt,tools,false,"Commandline tooling, CLI's"
+Sonarcloud,adopt,tools,true,Analyze repository on code quality & security
 Gulp,adopt,tools,false,
 npm,adopt,tools,false,
+Deno,trial,tools,true,"JavaScript/TypeScript runtime built in Rust, secure, supports TypeScript out of the box"
+Esbuild,trial,tools,true,"build tool, fast build time"
+Snowpack,trial,tools,true,"build tool, fast build time"
 Git,adopt,tools,false,
 PostCSS,adopt,tools,false,
 Babel 7,adopt,tools,false,Can be relevant in build tooling
