@@ -44,6 +44,12 @@
   isNew: FALSE
   description: Testing library to describe your test.
 -
+  name: Mirage JS
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: API mocking library, no need of backend services, mock data within components.
+-
   name: RX-JS
   ring: assess
   quadrant: languages & frameworks
@@ -81,6 +87,36 @@
   quadrant: languages & frameworks
   isNew: FALSE
   description: State management for ReactJS, use redux-toolkit. Not for server state (see eg. react-query).
+-
+  name: React-query
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: server state library, Powerful and performant data synchronization between server and client 
+-
+  name: React-router
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: Collection of navigational components, Routing 
+-
+  name: React forms
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: Form builder/handling, big JSON schema's use react-json-schema-form, else use react-hook-form
+-
+  name: Formik
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: React form builder, prefer react-hook-form or react-json-schema-form over Formik
+-
+  name: Ag-grid
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: JavaScript grid
 -
   name: HTML(5)/CSS(3)
   ring: adopt
@@ -124,6 +160,24 @@
   isNew: FALSE
   description: Favor SASS over LESS.
 -
+  name: Tailwind
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: Utility-first CSS framework, small library
+-
+  name: Material UI
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: React UI framework with standard set of components
+-
+  name: Ionic framework
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: Mobile app framework where developer can choose between React, Angular and Vue.js implementations
+-
   name: .NET Core/5/6
   ring: adopt
   quadrant: platforms
@@ -149,10 +203,16 @@
   description: Prefered platform for out of the box Sitecore implementations
 -
   name: Sitecore JSS
-  ring: trial
+  ring: assess
   quadrant: platforms
   isNew: FALSE
   description: To use Sitecore as a headless platform. Use in combination with NextJS
+-
+  name: Sitecore Edge
+  ring: assess
+  quadrant: platforms
+  isNew: TRUE
+  description: Headless content delivery, available with Content Hub or XM
 -
   name: Docker / containers
   ring: adopt
@@ -164,7 +224,7 @@
   ring: adopt
   quadrant: platforms
   isNew: FALSE
-  description: Dutch company, local support!
+  description: Dutch company, local support, based on usage look at Azure Search
 -
   name: Tree Shaking
   ring: adopt
@@ -194,7 +254,7 @@
   ring: adopt
   quadrant: techniques
   isNew: FALSE
-  description: JSS, netlify-cms, BLS...
+  description: JSS, Netlify-cms, BLS...
 -
   name: HTTP/2
   ring: adopt
@@ -214,11 +274,11 @@
   isNew: FALSE
   description: Technical SEO - Schema.org, JSON-LD, OpenGraph, ...
 -
-  name: ARIA
+  name: A11Y
   ring: trial
   quadrant: techniques
   isNew: FALSE
-  description: Accessibility, should be done!!
+  description: Accessibility, Adobe React Aria
 -
   name: Image optimization as a service
   ring: adopt
@@ -239,7 +299,7 @@
   description: Jest, testing-library.com 
 -
   name: UI Testing
-  ring: trial
+  ring: assess
   quadrant: techniques
   isNew: FALSE
   description: Cypress
@@ -250,11 +310,71 @@
   isNew: FALSE
   description: Blazer for example
 -
+  name: JAMStack
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: new standard for web architecture, CDN, Microservices
+-
+  name: Date formatting
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: Date-fns or day-js depending on how intensive/widespread date is being used
+-
+  name: Code splitting
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: (fe. Dynamic imports)
+-
+  name: Internationalization
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: FormatJS (react-intl)
+-
+  name: Azure static web apps
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description: Automatically build and deploy full stack web apps to Azure; Azure Functions
+-
+  name: Websockets
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description: two way interactive communication between user's browser and server (fe. SocketIO)
+-
+  name: XState
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description: JavaScript/TypeScript state machine, declarative description of application behavior
+-
+  name: Service workers
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: event-driven scripts that run independently of web pages (fe. push notifications), programmable network proxy.
+-
+  name: Web workers
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description: run scripts in background threads independently of user-interface scripts, they can perform I/O using XMLHttpRequest.
+-
   name: Terminal
   ring: adopt
   quadrant: tools
   isNew: FALSE
   description: Commandline tooling, CLI's
+-
+  name: Sonarcloud
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: Analyze repository on code quality & security
 -
   name: Gulp
   ring: adopt
@@ -262,11 +382,29 @@
   isNew: FALSE
   description: 
 -
-  name: npm
+  name: Npm
   ring: adopt
   quadrant: tools
   isNew: FALSE
   description: 
+-
+  name: Deno
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description:  JavaScript/TypeScript runtime built in Rust, secure, supports TypeScript out of the box
+-
+  name: Esbuild
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: build tool, fast build time
+-
+  name: Snowpack
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: build tool, fast build time
 -
   name: Git
   ring: adopt
