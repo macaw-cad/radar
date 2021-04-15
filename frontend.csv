@@ -30,6 +30,7 @@ LESS,hold,languages & frameworks,false,Favor SASS over LESS.
 Tailwind,trial,languages & frameworks,true,"Utility-first CSS framework, small library"
 Material UI,assess,languages & frameworks,true,React UI framework with standard set of components
 Ionic framework,assess,languages & frameworks,true,"Mobile app framework where developer can choose between React, Angular and Vue.js implementations"
+XState,trial,languages & frameworks,true,"JavaScript/TypeScript state machine, declarative description of application behavior"
 .NET Core/5/6,adopt,platforms,false,
 Azure,adopt,platforms,false,
 Solr,adopt,platforms,false,"Part of the Sitecore box, for custom search adopt ElasticSearch"
@@ -46,7 +47,7 @@ Content as a service,adopt,techniques,false,"JSS, Netlify-cms, BLS..."
 HTTP/2,adopt,techniques,false,Loading multiple small bundles at high speed
 PWA,adopt,techniques,false,Progressive Web Apps
 SEO,adopt,techniques,false,"Technical SEO - Schema.org, JSON-LD, OpenGraph, ..."
-A11Y,trial,techniques,false,"Accessibility, Adobe React Aria"
+A11Y/ARIA,trial,techniques,false,"Accessibility, Adobe React Aria"
 Image optimization as a service,adopt,techniques,false,"Use image services like Kraken, ContentHub"
 Serverless,adopt,techniques,false,"Serverless computing: Azure Functions, Netlify Functions"
 Unit tests,adopt,techniques,false,"Jest, testing-library.com"
@@ -58,13 +59,12 @@ Code splitting,adopt,techniques,true,(fe. Dynamic imports)
 Internationalization,adopt,techniques,true,FormatJS (react-intl)
 Azure static web apps,assess,techniques,true,Automatically build and deploy full stack web apps to Azure; Azure Functions
 Websockets,assess,techniques,true,two way interactive communication between user's browser and server (fe. SocketIO)
-XState,trial,techniques,true,"JavaScript/TypeScript state machine, declarative description of application behavior"
 Service workers,adopt,techniques,true,"event-driven scripts that run independently of web pages (fe. push notifications), programmable network proxy."
 Web workers,trial,techniques,true,"run scripts in background threads independently of user-interface scripts, they can perform I/O using XMLHttpRequest."
 Terminal,adopt,tools,false,"Commandline tooling, CLI's"
 Sonarcloud,adopt,tools,true,Analyze repository on code quality & security
 Gulp,adopt,tools,false,
-Npm,adopt,tools,false,
+npm,adopt,tools,false,
 Deno,trial,tools,true,"JavaScript/TypeScript runtime built in Rust, secure, supports TypeScript out of the box"
 Esbuild,trial,tools,true,"build tool, fast build time"
 Snowpack,trial,tools,true,"build tool, fast build time"

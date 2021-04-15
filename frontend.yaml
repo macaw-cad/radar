@@ -178,6 +178,12 @@
   isNew: TRUE
   description: Mobile app framework where developer can choose between React, Angular and Vue.js implementations
 -
+  name: XState
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: JavaScript/TypeScript state machine, declarative description of application behavior
+-
   name: .NET Core/5/6
   ring: adopt
   quadrant: platforms
@@ -274,7 +280,7 @@
   isNew: FALSE
   description: Technical SEO - Schema.org, JSON-LD, OpenGraph, ...
 -
-  name: A11Y
+  name: A11Y/ARIA
   ring: trial
   quadrant: techniques
   isNew: FALSE
@@ -346,12 +352,6 @@
   isNew: TRUE
   description: two way interactive communication between user's browser and server (fe. SocketIO)
 -
-  name: XState
-  ring: trial
-  quadrant: techniques
-  isNew: TRUE
-  description: JavaScript/TypeScript state machine, declarative description of application behavior
--
   name: Service workers
   ring: adopt
   quadrant: techniques
@@ -382,7 +382,7 @@
   isNew: FALSE
   description: 
 -
-  name: Npm
+  name: npm
   ring: adopt
   quadrant: tools
   isNew: FALSE
