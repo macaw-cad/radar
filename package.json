@@ -28,7 +28,7 @@
   "homepage": "https://github.com/macaw-interactive/radar#readme",
   "dependencies": {
     "chokidar-cli": "^1.2.1",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "js-yaml": "^3.12.0",
     "jsonexport": "^2.3.0",
     "minimist": "^1.2.0",
